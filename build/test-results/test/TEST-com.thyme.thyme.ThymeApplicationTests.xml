@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thyme.thyme.ThymeApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-17T17:38:30" hostname="caeser" time="0.463">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.thyme.thyme.ThymeApplicationTests" time="0.463"/>
+  <system-out><![CDATA[12:38:28.869 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.thyme.thyme.ThymeApplicationTests]: ThymeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:38:28.927 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.thyme.thyme.ThymeApplication for test class com.thyme.thyme.ThymeApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-10-17T12:38:29.121-05:00  INFO 2360733 --- [    Test worker] com.thyme.thyme.ThymeApplicationTests    : Starting ThymeApplicationTests using Java 17.0.7 with PID 2360733 (started by stevew in /home/stevew/java/thyme)
+2023-10-17T12:38:29.122-05:00  INFO 2360733 --- [    Test worker] com.thyme.thyme.ThymeApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T12:38:29.790-05:00  INFO 2360733 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-17T12:38:30.132-05:00  INFO 2360733 --- [    Test worker] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.1.0 (camel-1) is starting
+2023-10-17T12:38:30.135-05:00  INFO 2360733 --- [    Test worker] o.a.c.impl.engine.AbstractCamelContext   : Routes startup (started:0)
+2023-10-17T12:38:30.135-05:00  INFO 2360733 --- [    Test worker] o.a.c.impl.engine.AbstractCamelContext   : Apache Camel 4.1.0 (camel-1) started in 2ms (build:0ms init:0ms start:2ms)
+2023-10-17T12:38:30.141-05:00  INFO 2360733 --- [    Test worker] com.thyme.thyme.ThymeApplicationTests    : Started ThymeApplicationTests in 1.135 seconds (process running for 1.728)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
